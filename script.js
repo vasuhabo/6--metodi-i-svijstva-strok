@@ -34,9 +34,11 @@ const logg = "0123456789";
 
 console.log(logg.substring(-2, 7));// result >>>>  0123456   ---->>  -2 === 0
 
+// method   substr
 
+const logg = "0123456789";
 
-
+console.log(logg.substr(2, 4));// result >>>>  2345   второй аргумент говорит сколько символов вырезать надо
 
 
 
