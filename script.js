@@ -17,5 +17,5 @@ console.log(str);
 
 const fruit = "Some fruit";
 
-console.log(fruit.indexOf("fruit"));// поиск подстроки
+console.log(fruit.indexOf("q"));// поиск подстроки выводит -1 q ne  najden
 
