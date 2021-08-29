@@ -32,7 +32,7 @@ console.log(logg.slice(-6, -2));// result >>>>  4567
 
 const logg = "0123456789";
 
-console.log(logg.substring(2, 7));// result >>>>  23456
+console.log(logg.substring(-2, 7));// result >>>>  0123456   ---->>  -2 === 0
 
 
 
