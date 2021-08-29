@@ -22,7 +22,7 @@ console.log(fruit.indexOf("q"));// поиск подстроки выводит 
 
 const logg = "0123456789";
 
-console.log(logg.slice(-3));// result >>>>  789
+console.log(logg.slice(-6, -2));// result >>>>  4567
 
 
 
