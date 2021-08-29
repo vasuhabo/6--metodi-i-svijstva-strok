@@ -19,3 +19,27 @@ const fruit = "Some fruit";
 
 console.log(fruit.indexOf("q"));// поиск подстроки выводит -1 q ne  najden
 
+
+const logg = "0123456789";
+
+console.log(logg.slice(3,7));// result >>>>  3456
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
