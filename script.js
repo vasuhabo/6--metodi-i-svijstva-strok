@@ -46,11 +46,11 @@ const num = 12.2;
 console.log(Math.round(num));// method  okruglenija  chisla result --->>  12
 
 
-const test = "13342.24";
+const test = "13342.456px";
 
-console.log(parseInt(test));// result ----> 13342  убирает точку и дроби потом
+//console.log(parseInt(test));// result ----> 13342  убирает точку и дроби потом
 
-
+console.log(parseFloat(test));// result ---->13342.456 Возвращает в десятичной системе с дробями
 
 
 
