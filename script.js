@@ -1,6 +1,6 @@
 'use strict';
 
-const str = "test";
+const str = "Test";
 // const arr = [1, 2, 3];
 
 
@@ -8,4 +8,8 @@ const str = "test";
 
 
 console.log(str.toUpperCase()); // метод превращает строку все заглавные буквы
+
+console.log(str.toLowerCase());// метод превращает строку все нижний регистр буквы
+
+
 console.log(str);
