@@ -23,14 +23,14 @@ console.log(fruit.indexOf("q"));// поиск подстроки выводит 
 // method  slice
 
 
-const logg = "0123456789";
+//const logg = "0123456789";
 
 console.log(logg.slice(-6, -2));// result >>>>  4567
 
 
 // method   substring 
 
-const logg = "0123456789";
+//const logg = "0123456789";
 
 console.log(logg.substring(-2, 7));// result >>>>  0123456   ---->>  -2 === 0
 
@@ -46,7 +46,9 @@ const num = 12.2;
 console.log(Math.round(num));// method  okruglenija  chisla result --->>  12
 
 
+const test = "13342.24";
 
+console.log(parseInt(test));// result ----> 13342  убирает точку и дроби потом
 
 
 
