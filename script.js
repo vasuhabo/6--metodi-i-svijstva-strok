@@ -7,9 +7,15 @@ const str = "Test";
 // console.log(str[2]); // shous   s   because   s is number  2  in  word  "test" >>>>>>t=0,e=1,s=2,....
 
 
-console.log(str.toUpperCase()); // метод превращает строку все заглавные буквы
+//console.log(str.toUpperCase()); // метод превращает строку все заглавные буквы
 
 console.log(str.toLowerCase());// метод превращает строку все нижний регистр буквы
 
 
 console.log(str);
+
+
+const fruit = "Some fruit";
+
+console.log(fruit.indexOf("fruit"));// поиск подстроки
+
