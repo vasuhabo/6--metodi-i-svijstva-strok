@@ -41,7 +41,9 @@ const logg = "0123456789";
 console.log(logg.substr(2, 4));// result >>>>  2345   второй аргумент говорит сколько символов вырезать надо
 
 
+const num = 12.2;
 
+console.log(Math.round(num));// method  okruglenija  chisla result --->>  12
 
 
 
