@@ -18,6 +18,9 @@ console.log(str);
 const fruit = "Some fruit";
 
 console.log(fruit.indexOf("q"));// поиск подстроки выводит -1 q ne  najden
+  
+
+// method  slice
 
 
 const logg = "0123456789";
@@ -25,7 +28,11 @@ const logg = "0123456789";
 console.log(logg.slice(-6, -2));// result >>>>  4567
 
 
+// method   substring 
 
+const logg = "0123456789";
+
+console.log(logg.substring(2, 7));// result >>>>  23456
 
 
 
